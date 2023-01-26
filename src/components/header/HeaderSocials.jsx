@@ -5,8 +5,8 @@ import {BsMedium} from 'react-icons/bs'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://medium.com/@luqmanhal9000" target="_blank"><BsMedium/></a>{/*youtube link with icon*/}
-        <a href="https://www.youtube.com/watch?v=QvF5finJxYc" target="_blank"><FaYoutube/></a>{/*medium link with icon*/}
+        <a href="https://medium.com/@luqmanhal9000" target="_blank" rel="noreferrer"><BsMedium/></a>{/*youtube link with icon*/}
+        <a href="https://www.youtube.com/watch?v=QvF5finJxYc" target="_blank" rel="noreferrer"><FaYoutube/></a>{/*medium link with icon*/}
     </div>
   )
 }
