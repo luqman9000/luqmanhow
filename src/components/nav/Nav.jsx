@@ -6,14 +6,13 @@ import {MdContacts} from 'react-icons/md'
 import {useState} from 'react'
 
 const Nav = () => {
-    const [activeNav, setActiveNav] = useState('#')
+    const [activeNav, setActiveNav] = useState('#') 
   return (
     <div>
         <nav>
-            <a href ="#"
-            className='active'><FaHome/></a> {/*go to the top*/}
-            <a href ="#about"><FaUserAlt/></a>
-            <a href ="#contact"><MdContacts/></a>
+            <a href ="#" onClick={()=>setActiveNav('#')}className={activeNav === '#' ? 'active':''}><FaHome/></a> {/*go to the top*/}
+            <a href ="#about" onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active':''}><FaUserAlt/></a>
+            <a href ="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === '#contact' ? 'active':''}><MdContacts/></a>
         </nav>
     </div>
   )
