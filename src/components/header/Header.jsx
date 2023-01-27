@@ -14,7 +14,7 @@ const Header = () => {
           <h1 className="text-light">Fuel Shack Developer</h1>
           <CTA /> {/*use component CTA.jsx*/}
           <HeaderSocial />{/*use the header social component(kena import dulu). icon letak kat sini je*/}
-          <div className="literally me lol"> 
+          <div className="me"> 
             <img src={ME} alt="me"/> {/*use image that was imported from ME*/}
             <a href="#contact" className='scroll__down'>Scroll down</a>
           </div>
